@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 03 Jul 2025 13:15:00 +0200
+Source: freetimemaker-plc
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 1.0.2~focal1
+Distribution: focal
+Urgency: medium
+Maintainer: Freetime Maker <jamieachatz@gmail.com>
+Changed-By: Freetime Maker <jamieachatz@gmail.com>
+Changes:
+ freetimemaker-plc (1.0.2~focal1) focal; urgency=medium
+ .
+   * Initial release for the Game.
+Checksums-Sha1:
+ 1fe95f36bdb0cbe084e925cf91272cded49280ee 910 freetimemaker-plc_1.0.2~focal1.dsc
+ 4717a4a0abd46510950f19a4ab98ff69c54a17c8 29366411 freetimemaker-plc_1.0.2~focal1.tar.gz
+ f32d4fda8bf8424db352ada3a37a5956ff012d94 6680 freetimemaker-plc_1.0.2~focal1_source.buildinfo
+Checksums-Sha256:
+ 9347c8e6d14a14440334088b8233e8c0c857cc16ad8ca2651e89ca1b934a7957 910 freetimemaker-plc_1.0.2~focal1.dsc
+ 55d9e28d583357e981dc810227a7731a192dd5c10b7a428de9b3080227d27101 29366411 freetimemaker-plc_1.0.2~focal1.tar.gz
+ d22d6fe66401871e4e4292c0d5fb5cf34bfc0b5fb58970c833f6b3c554798bfc 6680 freetimemaker-plc_1.0.2~focal1_source.buildinfo
+Files:
+ 42d7faa12d62fc29061d069800ee904b 910 games optional freetimemaker-plc_1.0.2~focal1.dsc
+ d6ed38f5355804910031bb2b1f51090e 29366411 games optional freetimemaker-plc_1.0.2~focal1.tar.gz
+ d3e2d7e90ff91c6abf988819c63d746a 6680 games optional freetimemaker-plc_1.0.2~focal1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iIwEARYKADQWIQSac930p+kb/MsjQ3BPMzbf6vlCPgUCaGZnxhYcamFtaWVhY2hh
+dHpAZ21haWwuY29tAAoJEE8zNt/q+UI+ge4A/1GGegIKbAuOsRZqPv53vvCsCofG
+8GUuYDbAT3ptF5rUAQCepVfnRnmElwIF2CqOGsEI72KbR0o+QucTElMaKNsiBw==
+=ZsTI
+-----END PGP SIGNATURE-----
