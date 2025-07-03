@@ -1,0 +1,14 @@
+Source: freetimemaker-plc
+Section: games
+Priority: optional
+Maintainer: Freetime Maker <jamieachatz@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.0
+
+Package: freetimemaker-plc
+Version: 1.0.2
+Architecture: all
+Depends: ${misc:Depends}
+Description: PLC 2.0 is my first game for Linux.
+ You Click On Programming Languages And Get Them As Currency.
+

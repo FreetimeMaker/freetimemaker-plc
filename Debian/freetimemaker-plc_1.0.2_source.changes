@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 03 Jul 2025 12:00:00 +0200
+Source: freetimemaker-plc
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 1.0.2
+Distribution: stable
+Urgency: medium
+Maintainer: Freetime Maker <jamieachatz@gmail.com>
+Changed-By: Freetime Maker <jamieachatz@gmail.com>
+Changes:
+ freetimemaker-plc (1.0.2) stable; urgency=medium
+ .
+   * Initial release of the Unity game PLC 2.0.
+Checksums-Sha1:
+ da926a21ff50786727984a236cbff434c2384a40 886 freetimemaker-plc_1.0.2.dsc
+ e492bd5f4b2b038c6e0510529097698c7ce07458 29366687 freetimemaker-plc_1.0.2.tar.gz
+ e198f6593ca818af7c75f3ee532c19568a900da5 6652 freetimemaker-plc_1.0.2_source.buildinfo
+Checksums-Sha256:
+ 891485686b3a80f6f30cc5b43923ca4dd89ee29b2cc587c76f897ac10f7abd8f 886 freetimemaker-plc_1.0.2.dsc
+ 9002c206a5cc1b4495ccf4d57db93c2725a12ef44be23799f2e9eb2cd24ccac7 29366687 freetimemaker-plc_1.0.2.tar.gz
+ 0214b4ac426e49b3b280c2e5281f19b922253197b5e7744c012fe2e87deb7b39 6652 freetimemaker-plc_1.0.2_source.buildinfo
+Files:
+ f7c942efd775ee8169e4076dbabe6639 886 games optional freetimemaker-plc_1.0.2.dsc
+ e11a5e35036fd6d92ed2ea24a888090b 29366687 games optional freetimemaker-plc_1.0.2.tar.gz
+ 9dc8bb820729f52fa652380d93557e58 6652 games optional freetimemaker-plc_1.0.2_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iIwEARYKADQWIQSac930p+kb/MsjQ3BPMzbf6vlCPgUCaGZONhYcamFtaWVhY2hh
+dHpAZ21haWwuY29tAAoJEE8zNt/q+UI+KIEA/0RWc1X6ckYKRoy20j7DBRsOlH5P
+IwvTn8ZI57Kvcw8GAQCt9QsQHHjYzWVswPm0AAtVvyy5QRG6BTysuPCzwkjtAQ==
+=QonI
+-----END PGP SIGNATURE-----

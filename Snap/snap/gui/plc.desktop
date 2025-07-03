@@ -1,0 +1,15 @@
+[Desktop Entry]
+
+Name=PLC 2.0
+
+Comment=My First Unity Snap Game
+
+Exec=freetimemaker-plc
+
+Icon=${SNAP}/meta/gui/plc.png
+
+Type=Application
+
+Terminal=false
+
+Categories=Game;
