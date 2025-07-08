@@ -1,0 +1,13 @@
+﻿Source: freetimemaker-plc
+Section: games
+Priority: optional
+Maintainer: Freetime Maker <jamieachatz@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.0
+
+Package: freetimemaker-plc
+Version: 1.0.2~noble1
+Architecture: all
+Depends: ${misc:Depends}
+Description: PLC 2.0 is my first game for Linux.
+ A Unity-powered clicker game where you collect programming languages and use them as currency.
