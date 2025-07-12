@@ -1,6 +1,6 @@
 ﻿name: freetimemaker-plc
 base: core24
-version: '1.0.2'
+version: '1.0.3'
 summary: Clicker but you click Programming Languages
 description: |
   Like said in the summary, it's a Clicker Game where you have to click on Programming Languages.
