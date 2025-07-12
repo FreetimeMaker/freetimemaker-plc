@@ -1,8 +1,0 @@
- dpkg-buildpackage -us -uc -ui -S -sa
-dpkg-buildpackage: Warnung:     debian/changelog(l1): ungültig formatierte Kopfzeile
-LINE: ﻿freetimemaker-plc (1.0.2~noble1) noble; urgency=medium
-dpkg-buildpackage: Warnung:     debian/changelog(l2): Leerzeile statt des erwarteten erste Überschrift gefunden
-dpkg-buildpackage: Warnung:     debian/changelog(l3): Änderungsdaten statt des erwarteten erste Überschrift gefunden
-LINE:   * Initial release for the Game for Noble.
-dpkg-buildpackage: Warnung: unbekanntes Informationsfeld »« in den Eingabedaten in ausgewertete Version des Änderungsprotokoll
-dpkg-buildpackage: Fehler: Syntaxfehler in debian/control in Zeile 7: im ersten Absatz fehlt ein Feld »Source«
