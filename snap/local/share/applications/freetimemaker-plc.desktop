@@ -1,6 +1,8 @@
 [Desktop Entry]
 Name=PLC 2.0
-Exec=/usr/games/freetimemaker-plc/freetimemaker-plc.x86_64
-Icon=freetimemaker-plc
+Comment=Clicker Game where you click Programming Languages
+Exec=PLC2.0.x86_64
+Icon=${SNAP}/meta/gui/freetimemaker-plc.png
+Terminal=false
 Type=Application
 Categories=Game;
