@@ -1,8 +1,8 @@
 [Desktop Entry]
-Name=PLC 2.0
-Comment=Clicker Game where you click Programming Languages
-Exec=PLC2.0.x86_64
-Icon=${SNAP}/meta/gui/freetimemaker-plc.png
-Terminal=false
+Version=1.0.4
 Type=Application
-Categories=Game;
+Name=freetimemaker-plc
+Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/freetimemaker-plc.desktop /snap/bin/freetimemaker-plc
+Icon=/snap/freetimemaker-plc/current/meta/gui/icon.png
+Terminal=false
+Categories=Games;
