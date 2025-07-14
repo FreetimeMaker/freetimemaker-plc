@@ -1,4 +1,5 @@
 [![freetimemaker-plc](https://snapcraft.io/freetimemaker-plc/badge.svg)](https://snapcraft.io/freetimemaker-plc)
 
-# PLC-2.0
-For My Game
+# freetimemaker-plc
+# PLC 2.0
+The Official PLC 2.0 Snap Reporisity
