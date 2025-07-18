@@ -6,22 +6,30 @@ description: |
   Like said in the summary, it's a Clicker Game where you have to click on Programming Languages.
 
 grade: stable
-confinement: strict  # 'strict' wird empfohlen, classic ist nicht erlaubt mit core24
+confinement: strict
 
 parts:
   freetimemaker-plc:
     plugin: dump
     source: snap/local
+    stage-packages:
+      - libproxy1v5
+      - glib-networking
+      - libpulse0
     organize:
+      freetimemaker-plc_Data/**: game/freetimemaker-plc_Data/
+      bin/freetimemaker-plc.x86_64: game/freetimemaker-plc.x86_64
+      bin/UnityPlayer.so: game/UnityPlayer.so
       share/applications/freetimemaker-plc.desktop: usr/share/applications/plc.desktop
       share/icons/hicolor/128x128/apps/freetimemaker-plc.png: meta/gui/plc.png
 
 apps:
   freetimemaker-plc:
-    command: PLC2.0.x86_64
+    command: game/freetimemaker-plc.x86_64
     extensions: [gnome]
     environment:
-      LD_LIBRARY_PATH: "$SNAP/PLC2.0_Data/Plugins/x86_64:$SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/pulseaudio:$LD_LIBRARY_PATH"
+      LD_LIBRARY_PATH: "$SNAP/freetimemaker-plc_Data/Plugins/x86_64:$SNAP/usr/lib/$CRAFT_ARCH_TRIPLET/libproxy:$SNAP/usr/lib/$CRAFT_ARCH_TRIPLET/pulseaudio:$LD_LIBRARY_PATH"
+      GIO_EXTRA_MODULES: "$SNAP/usr/lib/$CRAFT_ARCH_TRIPLET/gio/modules"
     plugs:
       - x11
       - opengl
@@ -30,4 +38,3 @@ apps:
       - audio-playback
       - joystick
       - home
-
